@@ -9,6 +9,8 @@ steps:
   inputs:
     command: 'custom'
     customCommand: 'install --production'
+- script: |
+    npm install
 
 
 
