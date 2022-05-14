@@ -16,6 +16,7 @@ steps:
   inputs:
     command: 'custom'
     workingDir: '$(build.artifactstagingdirectory)/Templates'
+    verbose: false
     customCommand: 'install --production'
 
 - task: ArchiveFiles@2
